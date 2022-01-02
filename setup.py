@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'A simple ML model to classify Spotify tracks using audio features.'
 LONG_DESCRIPTION = 'A simple ML model to classify Spotify tracks using audio features.'
 
