@@ -1,0 +1,9 @@
+/.idea
+/dist
+/build
+/spotifymoods.egg-info
+train.csv
+test.csv
+scaled.pkl
+result.csv
+trained.pkl
