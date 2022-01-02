@@ -14,6 +14,7 @@ setup(
     url="https://github.com/ammar-oker/spotifymoods",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=['pandas', 'scikit_learn'],
     keywords=['spotify', 'machine learning', 'spotify moods', 'spotify emotions'],
