@@ -15,6 +15,7 @@ from spotifymoods import train
 
 # create a Pandas DataFrame from the file 'training_data.csv'
 train_data = pd.read_csv('training_data.csv')
+
 # save the trained model to the files 'trained_model.pkl' & 'scaled.pkl'
 train(data=train_data, trained_output='trained.pkl', scaled_output='scaled.pkl')
 ```
@@ -27,8 +28,10 @@ from spotifymoods import predict
 
 # create a Pandas DataFrame from the file 'test_data.csv'
 test_data = pd.read_csv('test_data.csv')
+
 # use the trained model from the files 'trained.pkl' & 'scaled.pkl', and return the results as DataFrame
 result = predict(data=test_data, trained_path='trained.pkl', scaled_path='scaled.pkl')
+
 # output the results to a .csv file
 result.to_csv('result.csv', index=False)
 ```
