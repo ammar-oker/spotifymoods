@@ -1,1 +1,2 @@
-from .spotifymoods_model import train, predict
+from .train import train
+from .predict import predict
