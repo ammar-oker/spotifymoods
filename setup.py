@@ -1,7 +1,7 @@
 from pathlib import Path
 from setuptools import setup, find_packages
 
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 DESCRIPTION = 'A simple ML model to classify Spotify tracks using audio features.'
 this_directory = Path(__file__).parent
 LONG_DESCRIPTION = (this_directory / 'README.md').read_text()
